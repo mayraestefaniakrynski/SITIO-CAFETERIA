@@ -1,0 +1,83 @@
+body{
+    background-image: url(fondo1.jpg);
+}
+h1,
+h2,h4 {
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    color: grey;
+}
+p{font-family: 'Times New Roman', Times, serif; 
+
+}
+.sobre-nosotros {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2 rem;
+    color: gray;
+
+}
+.card{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1.2 rem;
+    color:grey;
+    cursor: default;
+    background-color: rgb(250, 216, 233);
+    animation: slideIn 5s ease-in;
+}
+@keyframes slideIn {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.card :hover{
+ box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+ transform:translate(-5)
+}
+
+.card-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2 rem;
+    color:grey;
+}
+
+.card-text{
+   font-family:'Alfa Slab One', cursive;
+    font-size: medium;
+    display: block;
+    text-decoration: none;
+}
+
+.lista-novedades li a {
+    background-color: pink;
+    font-family:'Alfa Slab One', cursive;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: grey;
+    display: block;
+}
+.lista-novedades li a:hover {
+    color: grey;
+    background-color: rgb(250, 216, 233);
+}
+
+.lista-novedades li a:hover {
+    filter: none;
+    margin-right:  1.4rem;
+    opacity:1;
+
+}
+
+.form-label{
+    font-family: 'Times New Roman', Times, serif; 
+
+}
+.form-control{
+    background-color: pink;
+}
+
+.escrol-section{
+    scroll-margin-top: 60px;
+}
